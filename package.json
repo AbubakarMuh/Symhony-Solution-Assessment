@@ -1,0 +1,17 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "cucumber-js tests/acceptance/features --require tests/acceptance/StepDefinitions --format progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "11.0.1",
+    "@playwright/test": "^1.48.2",
+    "playwright": "^1.48.2"
+  }
+}
